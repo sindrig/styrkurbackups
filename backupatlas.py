@@ -78,7 +78,8 @@ if __name__ == '__main__':
     else:
         print('Running at %s' % datetime.datetime.now().strftime('%d.%m.%Y'))
         f1 = f2 = f3 = []
-        if arg in ('atlas', 'all'):
+        # if arg in ('atlas', 'all'):
+        if 0:
             f1 = atlas()
             if not f1:
                 error('Did not find any files for ATLAS backup')
